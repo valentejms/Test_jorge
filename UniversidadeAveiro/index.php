@@ -13,15 +13,7 @@
     ?>
     <div class="limpar"></div> <br>
     
-    <div class="c31">
-		<p>Coluna 1</p>
-    </div>
-    <div class="c32">
-		<p>Coluna 2</p>
-    </div>
-    <div class="c33">
-		<p>Coluna 3</p>
-    </div>
+
     
 </body>
 </html>
