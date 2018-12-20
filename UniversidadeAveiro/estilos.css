@@ -3,16 +3,26 @@
 .header {width:80%; margin-top:-7px; margin-right:auto; margin-left:auto; z-index:2; }
 .header img {width:100%; }
 
-.menu { width:80%; margin-top:-47px; margin-left:auto; margin-right:auto; background-color:rgba(0,0,0,0.7); z-index:3; position:relative; }
+.menu { width:80%; margin-top:-46px; margin-left:auto; margin-right:auto; background-color:rgba(0,0,0,0.7); z-index:3; position:relative; }
 .menu ul{ list-style-type:none; margin:0px; padding:0px; overflow:hidden; color:#CCCCCC; }
 .menu li{float:left;}
 .menu li a{ display:block; color:inherit; ext-align: center; padding:10px 16px; text-decoration:none; }
 .menu li a:hover{background-color:#66FF00; color:#FFFFFF; }
 .menu li a:visited {text-decoration:none; }
 
-.c31 .c32 .c33 {width:31%; float:left; background-color:#999999; height:300px; }
-.c31 {margin-left:2%; }
-.c33 {margin-right:2%; }
+
+.c32, .c33 {width:40%; float:left; background-color:#fff; min-height:300px; }
+.c31 {width:80%; float:left; margin:auto;}
+.c33 {margin-right:7%; margin-left:5px; }
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+.c31, .c32, .c33 {width:31%; float:left; background-color:#fff; min-height:300px; }
+.c31 {margin-left:2%; margin-right:2px; }
+.c33 {margin-right:2%; margin-left:2px; }
+}
+
+
 
 .limpar {clear:both; }
 
